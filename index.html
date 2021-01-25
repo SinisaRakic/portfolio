@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="" type="text/css" id="theme-style">
+  <title>Sinisa Rakic</title>
+</head>
+
+<body>
+  <section class="s1">
+    <div class="main-container">
+      <div class="greeting-wrapper">
+        <h1>Hi, I am Sinisa Rakic</h1>
+      </div>
+
+      <div class="intro-wrapper">
+        <div class="nav-wrapper">
+          <div class="dots-wrapper">
+            <div id="dot-1" class="browser-dot"></div>
+            <div id="dot-2" class="browser-dot"></div>
+            <div id="dot-3" class="browser-dot"></div>
+          </div>
+          <ul id="navigation">
+            <li><a href="#con">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="left-column">
+          <img id="profile-pic" src="img/sike.png" alt="">
+          <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
+
+          <div id="theme-options-wrapper">
+            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+          </div>
+
+          <p id="setting-note">*Theme options will be saved for<br>your next visit</p>
+        </div>
+
+        <div class="right-column">
+          <div id="preview-shadow">
+            <div id="preview">
+              <div id="corner-tl" class="corner"></div>
+              <div id="corner-tr" class="corner"></div>
+              <h3>What I do</h3>
+              <p>I am a Petroleum Engineer, now I enjoy learning Web Development and Programming</p>
+              <div id="corner-br" class="corner"></div>
+              <div id="corner-bl" class="corner"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="s2">
+    <div class="main-container">
+
+      <div class="about-wrapper">
+        <div class="about-me">
+          <h4>More about Me</h4>
+          <p>After years of experience in Petroleum Industry, I started to learn Programming and Web Development.
+          </p>
+          <p>Web Development and Programming are great interests of mine. I want further to learn and excel in this
+            craft.</p>
+
+          <hr>
+          <h4>Top Expertise</h4>
+          <p>You can download my Resume in the link below: <br>
+            <a href="resume.pdf" target="_blank">Download
+              Resume</a>
+          </p>
+          <div id="skills">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Java Script</li>
+              <li>Bascis of Java</li>
+              <li>Microsoft Office</li>
+            </ul>
+            <ul>
+              <li>Petroleum Engineering</li>
+              <li>SCADA System</li>
+              <li>VS Code</li>
+              <!-- <li>Bascis of OOP</li>
+              <li>Petroleum Engineering</li> -->
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="social-links">
+          <img id="social-img" src="img/linkedin.PNG" alt="">
+          <h3>Find me on LinkedIn:</h3>
+          <a href="https://www.linkedin.com/in/sinisa-rakic-b75b29113/" target="_blank"><i class=" fab fa-linkedin
+            fa-2x"></i> &nbsp; &nbsp; <span style="font-size: 20px;">Sinisa Rakic</span> </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class=" s1">
+    <div class="main-container">
+      <h3 style="text-align: center;">Some of my projects</h3>
+      <div class="post-wrapper">
+        <div class="post">
+          <img class="thumbnail" src="img/banat.jpg" alt="">
+          <div class="post-preview">
+            <h6 class="post-title">Ak Banat</h6>
+            <p class="post-intro">My first project for my Athletic Club.
+            </p>
+            <a href="https://www.akbanat.com/" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="con" class="s2">
+    <div class="main-container">
+      <h3 style="text-align: center;">Get In Touch</h3>
+      <form action="" id="contact-form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <label>Name</label>
+        <input type="text" name="name" class="input-field">
+        <label>Subject</label>
+        <input type="text" name="subject" class="input-field">
+        <label>Email</label>
+        <input type="text" name="email" class="input-field">
+        <label>Message</label>
+        <textarea name="message" class="input-field" cols="30" rows="10"></textarea>
+        <div data-netlify-recaptcha="true"></div>
+        <input type="submit" value="Send" name="" id="submit-btn">
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
